@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FruitApp2.MainPage">
+
+    <!--<StackLayout>
+        <Entry Placeholder="Enter User Name" x:Name="entUserName"></Entry>
+        <Button Text="Navigate to Page2" Clicked="Button_Clicked"></Button>
+    </StackLayout>-->
+
+    <ListView x:Name="FruitListView"
+              ItemSelected="FruitListView_ItemSelected">
+        
+    </ListView>
+    
+</ContentPage>
